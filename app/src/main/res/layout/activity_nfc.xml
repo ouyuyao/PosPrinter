@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/modelTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/startNfcDetectionButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:textSize="15sp"
+	        android:minHeight="0dp"
+	        android:minWidth="0dp"
+            android:text="@string/start_nfc_detection" />
+
+        <Button
+            android:id="@+id/clearLogButton"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:textSize="15sp"
+	        android:minHeight="0dp"
+	        android:minWidth="0dp"
+            android:text="@string/clear_log" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/stopNfcDetectionButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="15sp"
+	        android:minHeight="0dp"
+	        android:minWidth="0dp"
+            android:text="@string/stop_nfc_detection" />
+
+        <Button
+            android:id="@+id/nfcDataExchangeRead1StButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="15sp"
+	        android:minHeight="0dp"
+	        android:minWidth="0dp"
+            android:text="@string/nfc_data_exchange_read_1st" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/nfcDataExchangeReadNextButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="15sp"
+	        android:minHeight="0dp"
+	        android:minWidth="0dp"
+            android:text="@string/nfc_data_exchange_read_next" />
+
+        <Button
+            android:id="@+id/nfcDataExchangeWriteButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="15sp"
+	        android:minHeight="0dp"
+	        android:minWidth="0dp"
+            android:text="@string/nfc_data_exchange_write" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/startNfcDetectionAppleVasButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:textSize="15sp"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:text="@string/start_nfc_detection_apple_vas" />
+
+    </LinearLayout>
+
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+        
+        <EditText
+            android:id="@+id/statusEditText"
+            android:layout_weight=".5"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:editable="false"
+            android:gravity="top"
+            android:scrollbars="vertical"
+            android:ellipsize="end"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

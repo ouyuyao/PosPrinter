@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/general1LinearLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/general1TextView"
+                    android:layout_width="60sp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/general1EditText"
+                    android:layout_width="180sp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textNoSuggestions|textMultiLine"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/general2LinearLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/general1LinearLayout"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/general2CheckBox"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:text=""
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/general3LinearLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/general2LinearLayout"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/general3TextView"
+                    android:layout_width="60sp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/general3EditText"
+                    android:layout_width="180sp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textNoSuggestions|textMultiLine"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/general4LinearLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/general3LinearLayout"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/general4TextView"
+                    android:layout_width="60sp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/general4EditText"
+                    android:layout_width="180sp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textNoSuggestions|textMultiLine"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/general5LinearLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/general4LinearLayout"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/general5TextView"
+                    android:layout_width="60sp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/general5EditText"
+                    android:layout_width="180sp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textNoSuggestions|textMultiLine"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/general6LinearLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/general5LinearLayout"
+                android:orientation="horizontal" >
+
+                <RadioGroup
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center" >
+
+                    <RadioButton
+                        android:id="@+id/radio1Button"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text=""
+                        android:textSize="12sp" />
+
+                    <RadioButton
+                        android:id="@+id/radio2Button"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="12sp" />
+
+                    <RadioButton
+                        android:id="@+id/radio3Button"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="12sp" />
+
+                    <RadioButton
+                        android:id="@+id/radio4Button"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="12sp" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/general7LinearLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/general6LinearLayout"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/general7CheckBox"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:text=""
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/general8LinearLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/general7LinearLayout"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/general8TextView"
+                    android:layout_width="60sp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/general8EditText"
+                    android:layout_width="180sp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textNoSuggestions|textMultiLine"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/general9LinearLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/general8LinearLayout"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/general9TextView"
+                    android:layout_width="60sp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/general9EditText"
+                    android:layout_width="180sp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textNoSuggestions|textMultiLine"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/general10LinearLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/general9LinearLayout"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/general10TextView"
+                    android:layout_width="60sp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/general10EditText"
+                    android:layout_width="180sp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textNoSuggestions|textMultiLine"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/general11LinearLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/general10LinearLayout"
+                android:orientation="horizontal" >
+
+                <RadioGroup
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center" >
+
+                    <RadioButton
+                        android:id="@+id/radio5Button"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text=""
+                        android:textSize="12sp" />
+
+                    <RadioButton
+                        android:id="@+id/radio6Button"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="12sp" />
+
+                    <RadioButton
+                        android:id="@+id/radio7Button"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="12sp" />
+
+                    <RadioButton
+                        android:id="@+id/radio8Button"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="12sp" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/general12LinearLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/general11LinearLayout"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/general12CheckBox"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:text=""
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/general13LinearLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/general12LinearLayout"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/general13TextView"
+                    android:layout_width="60sp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/general13EditText"
+                    android:layout_width="180sp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textNoSuggestions|textMultiLine"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/general14LinearLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/general13LinearLayout"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/general14TextView"
+                    android:layout_width="60sp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/general14EditText"
+                    android:layout_width="180sp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textNoSuggestions|textMultiLine"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/general15LinearLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/general14LinearLayout"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/general15TextView"
+                    android:layout_width="60sp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/general15EditText"
+                    android:layout_width="180sp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textNoSuggestions|textMultiLine"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/general16LinearLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/general5LinearLayout"
+                android:orientation="horizontal" >
+
+                <RadioGroup
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center" >
+
+                    <RadioButton
+                        android:id="@+id/radio9Button"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text=""
+                        android:textSize="12sp" />
+
+                    <RadioButton
+                        android:id="@+id/radio10Button"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="12sp" />
+
+                    <RadioButton
+                        android:id="@+id/radio11Button"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="12sp" />
+
+                    <RadioButton
+                        android:id="@+id/radio12Button"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="12sp" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/general6LinearLayout"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/confirmButton"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:text="@string/confirm" />
+
+                <Button
+                    android:id="@+id/cancelButton"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:text="@string/cancel" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

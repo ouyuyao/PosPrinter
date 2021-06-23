@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/general1LinearLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/general1CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text=""
+                    android:textSize="12sp"/>
+
+                <EditText
+                    android:id="@+id/general1EditText"
+                    android:layout_width="180sp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textNoSuggestions|textMultiLine"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/general2LinearLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/general1LinearLayout"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/general2CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text=""
+                    android:textSize="12sp"/>
+
+                <EditText
+                    android:id="@+id/general2EditText"
+                    android:layout_width="180sp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textNoSuggestions|textMultiLine"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/general3LinearLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/general2LinearLayout"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/general3CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text=""
+                    android:textSize="12sp"/>
+
+                <EditText
+                    android:id="@+id/general3EditText"
+                    android:layout_width="180sp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textNoSuggestions|textMultiLine"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/general4LinearLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/general3LinearLayout"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/general4CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text=""
+                    android:textSize="12sp"/>
+
+                <EditText
+                    android:id="@+id/general4EditText"
+                    android:layout_width="180sp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textNoSuggestions|textMultiLine"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/general5LinearLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/general4LinearLayout"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/general5CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text=""
+                    android:textSize="12sp"/>
+
+                <EditText
+                    android:id="@+id/general5EditText"
+                    android:layout_width="180sp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textNoSuggestions|textMultiLine"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/general6LinearLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/general5LinearLayout"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/general6CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text=""
+                    android:textSize="12sp"/>
+
+                <EditText
+                    android:id="@+id/general6EditText"
+                    android:layout_width="180sp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textNoSuggestions|textMultiLine"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/general7LinearLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/general6LinearLayout"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/general7CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text=""
+                    android:textSize="12sp"/>
+
+                <EditText
+                    android:id="@+id/general7EditText"
+                    android:layout_width="180sp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textNoSuggestions|textMultiLine"
+                    android:textSize="12sp" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/general8LinearLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/general7LinearLayout"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/general8CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text=""
+                    android:textSize="12sp"/>
+
+                <EditText
+                    android:id="@+id/general8EditText"
+                    android:layout_width="180sp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textNoSuggestions|textMultiLine"
+                    android:textSize="12sp" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/general9LinearLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/general8LinearLayout"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/general9CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text=""
+                    android:textSize="12sp"/>
+
+                <EditText
+                    android:id="@+id/general9EditText"
+                    android:layout_width="180sp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textNoSuggestions|textMultiLine"
+                    android:textSize="12sp"
+                    android:visibility="gone" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/general10LinearLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/general9LinearLayout"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/general10CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text=""
+                    android:textSize="12sp"/>
+
+                <EditText
+                    android:id="@+id/general10EditText"
+                    android:layout_width="180sp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textNoSuggestions|textMultiLine"
+                    android:textSize="12sp"
+                    android:visibility="gone" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/general11LinearLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/general10LinearLayout"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/general11CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text=""
+                    android:textSize="12sp"/>
+
+                <EditText
+                    android:id="@+id/general11EditText"
+                    android:layout_width="180sp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textNoSuggestions|textMultiLine"
+                    android:textSize="12sp"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/general12LinearLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/general11LinearLayout"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/general12CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text=""
+                    android:textSize="12sp"/>
+
+                <EditText
+                    android:id="@+id/general12EditText"
+                    android:layout_width="180sp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textNoSuggestions|textMultiLine"
+                    android:textSize="12sp"
+                    android:visibility="gone" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/general13LinearLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/general12LinearLayout"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/general13CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text=""
+                    android:textSize="12sp"/>
+
+                <EditText
+                    android:id="@+id/general13EditText"
+                    android:layout_width="180sp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textNoSuggestions|textMultiLine"
+                    android:textSize="12sp"
+                    android:visibility="gone" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/general14LinearLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/general13LinearLayout"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/general14CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text=""
+                    android:textSize="12sp"/>
+
+                <EditText
+                    android:id="@+id/general14EditText"
+                    android:layout_width="180sp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textNoSuggestions|textMultiLine"
+                    android:textSize="12sp"
+                    android:visibility="gone" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/general15LinearLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/general14LinearLayout"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/general15CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text=""
+                    android:textSize="12sp"/>
+
+                <EditText
+                    android:id="@+id/general15EditText"
+                    android:layout_width="180sp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textNoSuggestions|textMultiLine"
+                    android:textSize="12sp"
+                    android:visibility="gone" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/general16LinearLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/general15LinearLayout"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/general16CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text=""
+                    android:textSize="12sp"/>
+
+                <EditText
+                    android:id="@+id/general16EditText"
+                    android:layout_width="180sp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textNoSuggestions|textMultiLine"
+                    android:textSize="12sp"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/general17LinearLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/general16LinearLayout"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/general17CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text=""
+                    android:textSize="12sp"/>
+
+                <EditText
+                    android:id="@+id/general17EditText"
+                    android:layout_width="180sp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textNoSuggestions|textMultiLine"
+                    android:textSize="12sp"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/general18LinearLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/general17LinearLayout"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/general18CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text=""
+                    android:textSize="12sp"/>
+
+                <EditText
+                    android:id="@+id/general18EditText"
+                    android:layout_width="180sp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textNoSuggestions|textMultiLine"
+                    android:textSize="12sp"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/general19LinearLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/general18LinearLayout"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/general19CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text=""
+                    android:textSize="12sp"/>
+
+                <EditText
+                    android:id="@+id/general19EditText"
+                    android:layout_width="180sp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textNoSuggestions|textMultiLine"
+                    android:textSize="12sp"
+                    android:visibility="gone" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/general19LinearLayout"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/confirmButton"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:text="@string/confirm" />
+
+                <Button
+                    android:id="@+id/cancelButton"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:text="@string/cancel" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

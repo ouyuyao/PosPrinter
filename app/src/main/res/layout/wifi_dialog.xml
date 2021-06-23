@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:id="@+id/wifiSSIDLinearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        
+        <CheckBox
+            android:id="@+id/enableWifiSSIDCheckBox"
+            android:checked="true"
+            android:layout_width="60sp"
+	        android:layout_height="wrap_content"
+	        android:text="@string/ssid"
+	        android:textSize="12sp"
+	        android:layout_weight="1" />
+        
+        <EditText
+	        android:id="@+id/wifiSSIDEditText"
+	        android:layout_width="180sp"
+	        android:layout_height="wrap_content"
+	        android:textSize="12sp"
+	        android:inputType="textNoSuggestions|textMultiLine"
+	        android:layout_weight="2" />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/wifiPasswordLinearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wifiSSIDLinearLayout"
+        android:orientation="horizontal" >
+        
+        <CheckBox
+            android:id="@+id/enableWifiPasswordCheckBox"
+            android:checked="true"
+            android:layout_width="60sp"
+	        android:layout_height="wrap_content"
+	        android:text="@string/password"
+	        android:textSize="12sp"
+	        android:layout_weight="1" />
+        
+        <EditText
+	        android:id="@+id/wifiPasswordEditText"
+	        android:layout_width="180sp"
+	        android:layout_height="wrap_content"
+	        android:textSize="12sp"
+	        android:inputType="textNoSuggestions|textMultiLine"
+	        android:layout_weight="2" />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/wifiUrlLinearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wifiPasswordLinearLayout"
+        android:orientation="horizontal" >
+        
+        <CheckBox
+            android:id="@+id/enableWifiUrlCheckBox"
+            android:checked="true"
+            android:layout_width="60sp"
+	        android:layout_height="wrap_content"
+	        android:text="@string/url"
+	        android:textSize="12sp"
+	        android:layout_weight="1" />
+        
+        <EditText
+	        android:id="@+id/wifiUrlEditText"
+	        android:layout_width="180sp"
+	        android:layout_height="wrap_content"
+	        android:textSize="12sp"
+	        android:inputType="textNoSuggestions|textMultiLine"
+	        android:layout_weight="2" />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/wifiPortNumberLinearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wifiUrlLinearLayout"
+        android:orientation="horizontal" >
+        
+        <CheckBox
+            android:id="@+id/enableWifiPortNumberCheckBox"
+            android:checked="true"
+            android:layout_width="60sp"
+	        android:layout_height="wrap_content"
+	        android:text="@string/portNumber"
+	        android:textSize="12sp"
+	        android:layout_weight="1" />
+        
+        <EditText
+	        android:id="@+id/wifiPortNumberEditText"
+	        android:layout_width="180sp"
+	        android:layout_height="wrap_content"
+	        android:textSize="12sp"
+	        android:inputType="textNoSuggestions|textMultiLine"
+	        android:layout_weight="2" />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wifiPortNumberLinearLayout"
+        android:orientation="horizontal" >
+        
+	    <Button
+	        android:id="@+id/confirmButton"
+	        android:layout_weight=".5"
+	        android:layout_width="0dip"
+	        android:layout_height="wrap_content"
+	        android:text="@string/confirm" />
+	    
+	    <Button
+	        android:id="@+id/cancelButton"
+	        android:layout_weight=".5"
+	        android:layout_width="0dip"
+	        android:layout_height="wrap_content"
+	        android:text="@string/cancel" />
+	    
+    </LinearLayout>
+
+</RelativeLayout>

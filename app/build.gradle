@@ -1,0 +1,80 @@
+plugins {
+    id 'com.android.application'
+}
+
+def signingFilePath = 'platform-signing.gradle'
+def performSigning = file(signingFilePath).exists()
+if (performSigning) {
+    apply from: signingFilePath
+}
+
+android {
+
+    if (performSigning) {
+        signingConfigs {
+            release {
+                storeFile file(project.signing.storeFilePath)
+                storePassword project.signing.storePassword
+                keyAlias project.signing.keyAlias
+                keyPassword project.signing.keyPassword
+                v1SigningEnabled true
+                v2SigningEnabled true
+            }
+        }
+    }
+    else {
+        signingConfigs {
+            bbdevice_exampe_keystore {
+                keyAlias 'key0'
+                keyPassword 'KYUbsdf4575Is'
+                storeFile file('bbdevice_exampe_keystore')
+                storePassword 'jtd54eDSffwi'
+            }
+        }
+    }
+
+    compileSdkVersion 30
+    buildToolsVersion "30.0.3"
+
+    defaultConfig {
+        applicationId "com.otto.posprinter"
+        minSdkVersion 22
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            if (performSigning) {
+                signingConfig signingConfigs.release
+            }
+            else {
+                signingConfig signingConfigs.bbdevice_exampe_keystore
+            }
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation files('libs\\acra-4.7.0.jar')
+    implementation files('libs\\bbdevice-android-3.19.4.jar')
+    implementation files('libs\\bbdeviceotaapi-android-1.6.16.jar')
+    implementation files('libs\\ksoap2-android-assembly-2.4-jar-with-dependencies.jar')
+    implementation files('libs\\printersdkv1.jar')
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+}

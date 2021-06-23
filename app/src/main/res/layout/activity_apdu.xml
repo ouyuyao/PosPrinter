@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/modelTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        
+        <Button 
+	        android:id="@+id/powerOnIccButton"
+	        android:layout_weight=".5"
+	        android:layout_width="0dip"
+	        android:layout_height="wrap_content"
+	        android:text="@string/power_on_icc" />
+        
+         <Button 
+	        android:id="@+id/clearLogButton"
+	        android:layout_weight=".5"
+	        android:layout_width="0dip"
+	        android:layout_height="wrap_content"
+	        android:text="@string/clear_log" />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        
+        <Button 
+	        android:id="@+id/powerOffIccButton"
+	        android:layout_weight=".5"
+	        android:layout_width="0dip"
+	        android:layout_height="wrap_content"
+	        android:text="@string/power_off_icc" />
+        
+        <Button 
+	        android:id="@+id/apduButton"
+	        android:layout_weight=".5"
+	        android:layout_width="0dip"
+	        android:layout_height="wrap_content"
+	        android:text="@string/send_apdu" />
+        
+    </LinearLayout>
+
+       
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+        
+        <EditText
+            android:id="@+id/statusEditText"
+            android:layout_weight=".5"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:editable="false"
+            android:gravity="top"
+            android:scrollbars="vertical"
+            android:ellipsize="end"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</LinearLayout>
